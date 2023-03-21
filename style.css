@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 5rem;
+    line-height: 1.5rem;
+}
+.intro-header{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.intro-intro{
+    text-align: center;
+    padding: 1rem 0;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.qq-header{
+    margin-bottom: 2rem;
+}
+
+#qq,#qq-1,#data,#code,#clar{
+    margin-bottom: 3rem;
+}
+
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.img-box > img{
+    margin-bottom: 2rem;
+}
+
+.code-desc{
+    padding: 2rem 0;
+}
+.big_img{
+    width: 1000px;
+}
+#clar > p{
+    text-align: center;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+}

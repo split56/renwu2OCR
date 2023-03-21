@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OCR API</title>
+</head>
+<body>
+    <section id="intro">
+        <h1 class="intro-header">OCR API</h1>
+        <p class="intro-intro">
+            主要目的：直接使用腾讯云或者百度云的接口/实现paddlepaddle 模型的接口
+        </p>
+    </section>
+    <section id="qq">
+        <h1 class="qq-header">腾讯云</h1>
+        <p class="q-intro">
+            主要目的：直接使用腾讯云或者百度云的接口
+        </p>
+        <p>API 封装接口 : <a href="https://www.7-an.com/api/ocr">'https://www.7-an.com/api/ocr'</a></p>
+        <p>请求方式 ： POST</p>
+        <div>
+            <p>请求参数：</p>
+            <ul>
+                <li><p>ImageBase64(必填) ：String</p></li>
+                <li><p>IsCorrection(可选)：Int</p></li>
+            </ul>
+        </div>
+    </section>
+    <section id="qq-1">
+        <h1 class="qq-header">paddle 预训练模型</h1>
+        <p class="q-intro">
+            主要目的：实现paddlepaddle 模型的接口
+        </p>
+        <p>模型接口  : <a href="https://www.7-an.com/api/paddle">'https://www.7-an.com/api/paddle'</a></p>
+        <p>请求方式 ： POST</p>
+        <div>
+            <p>请求参数：</p>
+            <ul>
+                <li>
+                    <p>ImageBase64(必填) ：String</p>
+                </li>
+                <li>
+                    <p>IsCorrection(可选)：Int</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="data">
+        <h1 class="qq-header">请求数据</h1>
+        <div class="img-box">
+            <img src="./img/img1.png" alt="">
+            <p>说明：得到SecretId和SecretKey的要求是首先注册腾讯云账号并通过实名认证然后进入文字人别项目，SecretId和SecretKey就在API密钥管理界面</p>
+        </div>
+    </section>
+    <section id="code">
+        <h1 class="qq-header">代码实现（python）</h1>
+        <div class="img-box">
+            <img src="./img/img2.png" alt="">
+            <p class="code-desc">说明：得到SecretId和SecretKey的要求是首先注册腾讯云账号并通过实名认证然后进入文字人别项目，SecretId和SecretKey就在API密钥管理界面</p>
+            <h3>图片：</h3>
+            <img src="./img/7KIDaUHuPceOx8m.jpg" />
+            <h3>结果：</h3>
+            <img class="big_img" src="./img/img3.png"/>
+        </div> 
+    </section>
+    <section id="clar">
+        <p>
+            （*）上面是用的API是由刘同学和朱同学封装的，非常感谢！
+        </p>
+    </section>
+    <footer id="footer">
+        <p>NGUYEN VIET HOANG MINH - 20203000096</p>
+    </footer>
+</body>
+</html>
+
+
